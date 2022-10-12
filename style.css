@@ -1,0 +1,75 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    text-align: center;
+}
+
+.header {
+    background-color: #1f2937;
+    list-style: none;
+    color: white;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.hero-main {
+    font-size: 48px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.wheel-gif {
+    border-radius: 25px;
+    border: 2px black;
+}
+
+.fish img {
+    height: 100px;
+    border-radius: 25px;
+    border: 4px black;
+}
+
+.header img {
+    height: 400px;
+}
+
+.fish {
+    display: flex;
+    justify-content: center;
+
+}
+
+.info {
+    padding: 72px;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 900px;
+    color: #1f2397;
+}
+
+
+.quote {
+    background-color: #e5e7eb;
+    margin: 0;
+    padding: 100px;
+    font-size: 32px;
+}
+
+.Sign-up {
+    padding: 72px;
+}
+
+.footer {
+    height: 72px;
+    background-color: #1f2937;
+    color: white;
+}
